@@ -1,0 +1,93 @@
+ body{
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background: rgb(207,209,221);
+    background: radial-gradient(circle, rgba(207,209,221,1) 0%, rgba(228,15,58,1) 100%);
+}
+
+.container{
+    background-color: #CD5C5C;
+    border-radius: 50px; 
+    margin: 25px;  
+    width: 1000px;
+    padding: 40px;
+    align-items: center; 
+   
+}
+
+.container h1{
+    font-size: 25px;
+    font-weight: 500px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+}
+
+.container form .infos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 30%;
+    display: inline;
+    font-size: larger;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 10%;
+}
+
+.checkbox {
+    display: inline; /* fica um do lado do outro (como podeos ver com os dias */
+    width: 1%;
+    font-size: 16px;
+}
+
+.container form .checkbox input {
+    height: 40px;
+}
+
+form{
+    margin: auto;  
+    width: 555px;
+    padding: 40px;
+    align-items: center;
+    border-radius: 10px; 
+    margin-bottom: auto;
+}
+
+label, input, select, textarea{
+    display: block;  /*  cada elemento ocupe uma linha inteira, preenche td espaço e faz uma quebra de linha */
+    width: 90%;   /* largura */
+    padding: 10PX;  /*  espaçamento */
+    border-radius: 20px;
+    margin-bottom: 20px;  /* espaço inferior */
+}
+
+label{
+    padding: 0%;
+    margin: 0%;
+    font-size: 19px;
+}
+
+.gen{
+    font-family: "Roboto Slab", serif;
+    justify-content: space-between;
+    font-size: larger;
+    display: inline;
+}
+
+
+
+.NomeCompleto {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+.sobrenome {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
