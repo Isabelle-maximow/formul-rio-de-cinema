@@ -14,7 +14,7 @@
     background: radial-gradient(circle, rgba(189,61,61,1) 0%, rgba(34,34,38,1) 100%);
     border-radius: 50px; 
     margin: 25px;  
-    width: 1000px;
+    width: 30%;
     padding: 40px;
     align-items: center; 
     color: #F5F5F5;
@@ -48,10 +48,6 @@
     margin-bottom: 25px;
 }
 
-.checkbox input {
-    margin-right: 10px; /* Espaçamento entre o checkbox e o texto */
-}
-
 .escolha {
     display: inline; /* fica um do lado do outro (como podeos ver com os dias */
     width: 10%;
@@ -83,12 +79,6 @@ label{
     font-size: 19px;
 }
 
-/* .gen{
-    font-family: "Roboto Slab", serif;
-    justify-content: space-between;
-    font-size: larger;
-    display: inline;
-} */
 
 
 
