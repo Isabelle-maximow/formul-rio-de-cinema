@@ -32,18 +32,15 @@
             />
           </div>
 
-          <div class="sobrenome">
-            <label  for="sobrenome">* Sobrenome:</label>
-            <input 
-              type="text"
-              name="sobrenome"
-              id="sobrenome"
-              required
-              placeholder="Seu sobrenome"
-            />
-          </div>
+          <label  for="sobrenome">* Sobrenome:</label>
+          <input 
+            type="text"
+            name="sobrenome"
+            id="sobrenome"
+            required
+            placeholder="Seu sobrenome"
+          />
           
-
           <label for="nascimento">* Data de Nascimento:</label>
           <input type="date" name="nascimento" id="nascimento" required />
 
@@ -90,29 +87,31 @@
           </select>
         </div>
         
-        <div class="checkbox">
-          <p>* Selecione os dias que você pretende assistir às sessões:</p>
-          <input type="checkbox" name="dia" id="sexta" value="sexta" />
-          <label for="sexta">Sexta-feira</label>
+        
+        <p>* Selecione os dias que você pretende assistir às sessões:</p>
+        <br>
+        <input class="checkbox" type="checkbox" name="dia" id="sexta" value="sexta" />
+        <label class="checkbox" for="sexta">Sexta-feira</label>
 
-          <input type="checkbox" name="dia" id="sabado" value="sabado" />
-          <label for="sabado">Sábado</label>
+        <input class="checkbox" type="checkbox" name="dia" id="sabado" value="sabado" />
+        <label class="checkbox" for="sabado">Sábado</label>
 
-          <input type="checkbox" name="dia" id="domingo" value="domingo" />
-          <label for="domingo">Domingo</label>
-        </div>
+        <input class="checkbox" type="checkbox" name="dia" id="domingo" value="domingo" />
+        <label class="checkbox" for="domingo">Domingo</label>
+     
 
         <p>* Deseja receber nossa newsletter?</p>
-        <input
+        <br>
+        <input class="escolha"
           type="radio"
           name="newsletter"
           id="newsletterSim"
           value="sim"
           required
         />
-        <label for="newsletterSim">Sim</label>
-        <input type="radio" name="newsletter" id="newsletterNao" value="nao" />
-        <label for="newsletterNao">Não</label>
+        <label class="escolha" for="newsletterSim">Sim</label>
+        <input class="escolha" type="radio" name="newsletter" id="newsletterNao" value="nao" />
+        <label class="escolha" for="newsletterNao">Não</label>
 
         <label for="comentarios">Comentários ou Sugestões:</label>
         <textarea
@@ -122,6 +121,7 @@
           rows="5"
           placeholder="Escreva seus comentários..."
         ></textarea>
+        <br>
 
         <input type="submit" value="Enviar Inscrição" id="botaoEnviar" />
         <input type="reset" value="Limpar Formulário" id="botaoLimpar" />
